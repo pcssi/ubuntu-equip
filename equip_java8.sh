@@ -11,5 +11,5 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update -y
-sudo apt-get install oracle-java8-installer -y
+sudo apt-get install oracle-java8-installer -y --force-yes
 sudo apt-get install ant -y
